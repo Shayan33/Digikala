@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="371.0" prefWidth="438.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.RegisterControler">
+   <children>
+      <TextField fx:id="firstname" layoutX="129.0" layoutY="39.0"  prefHeight="25.0" prefWidth="221.0" />
+      <TextField fx:id="lastname" layoutX="129.0" layoutY="81.0" prefHeight="25.0" prefWidth="221.0" />
+      <TextField fx:id="username" layoutX="129.0" layoutY="124.0"  prefHeight="25.0" prefWidth="221.0" />
+      <TextField fx:id="password" layoutX="129.0" layoutY="168.0"  prefHeight="25.0" prefWidth="221.0" />
+      <TextField fx:id="email" layoutX="129.0" layoutY="214.0"  prefHeight="25.0" prefWidth="221.0" />
+      <Text layoutX="39.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="First name" />
+      <Text layoutX="39.0" layoutY="98.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Last name" />
+      <Text layoutX="39.0" layoutY="141.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username" />
+      <Text layoutX="41.0" layoutY="185.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" />
+      <Text layoutX="55.0" layoutY="231.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email" />
+      <Button fx:id="register" layoutX="188.0" layoutY="274.0" mnemonicParsing="false" onAction="#registerOnAction" text="Register" />
+   </children>
+</AnchorPane>
