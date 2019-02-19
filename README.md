@@ -1,4 +1,4 @@
-# Digikala
+# Shopping Application
 Simple Shopping Application
 
 The goal of this design was working with JPA hibernate. There is also a simple JavaFX UI for this app.
